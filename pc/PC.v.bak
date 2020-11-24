@@ -1,0 +1,11 @@
+module PC(input clk,input [63:0] PC_Input,output  [63:0] PC_Output);
+  Register8 y0(clk,PC_Input[7:0],PC_Output[7:0]);
+  Register8 y1(clk,PC_Input[15:8],PC_Output[15:8]);
+  Register8 y2(clk,PC_Input[23:16],PC_Output[23:16]);
+  Register8 y3(clk,PC_Input[31:24],PC_Output[31:24]);
+  Register8 y4(clk,PC_Input[39:32],PC_Output[39:32]);
+  Register8 y5(clk,PC_Input[47:40],PC_Output[47:40]);
+  Register8 y6(clk,PC_Input[55:48],PC_Output[55:48]);
+  Register8 y7(clk,PC_Input[63:56],PC_Output[63:56]);
+endmodule
+  

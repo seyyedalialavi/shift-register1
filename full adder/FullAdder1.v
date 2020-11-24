@@ -1,0 +1,4 @@
+module FullAdder1(input a,b,cIn,output reg s,cOut);
+  always @(*)
+    {cOut,s}=a+b+cIn;
+endmodule

@@ -1,0 +1,6 @@
+module InstuctionMemory(input [63:0] Address, output reg [31:0]Instuction);
+  
+  reg [31:0] Memory[2047:0];
+  
+  always @(*)Instuction=Memory[Address];
+endmodule
