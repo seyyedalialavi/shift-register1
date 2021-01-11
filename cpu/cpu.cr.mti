@@ -1,0 +1,115 @@
+{F:/work/verilog/ali alavi/2/cpu/ALU.v} {1 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\ALU.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/FullAdder16.v} {1 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\FullAdder16.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module FullAdder16
+
+Top level modules:
+	FullAdder16
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/DataMemory.v} {1 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\DataMemory.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/ALUControlUnit.v} {1 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\ALUControlUnit.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ALUControlUnit
+
+Top level modules:
+	ALUControlUnit
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/PC.v} {1 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\PC.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/RegFile.v} {2 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\RegFile.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module RegFile
+** Warning: F:\work\verilog\ali alavi\2\cpu\RegFile.v(18): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	RegFile
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/SignExtened.v} {1 {vlog -work work -vopt {F:/work/verilog/ali alavi/2/cpu/SignExtened.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module SignExtend
+
+Top level modules:
+	SignExtend
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/cpu.v} {1 {vlog -work work -vopt {F:/work/verilog/ali alavi/2/cpu/cpu.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/FullAdder1.v} {1 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\FullAdder1.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module FullAdder1
+
+Top level modules:
+	FullAdder1
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/Adder4.v} {1 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\Adder4.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Adder4
+
+Top level modules:
+	Adder4
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/Register8.v} {1 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\Register8.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Register8
+
+Top level modules:
+	Register8
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/FullAdder64.v} {1 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\FullAdder64.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module FullAdder64
+
+Top level modules:
+	FullAdder64
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/cputb.v} {1 {vlog -work work -vopt {F:/work/verilog/ali alavi/2/cpu/cputb.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/FullAdder4.v} {1 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\FullAdder4.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module FullAdder4
+
+Top level modules:
+	FullAdder4
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/dff.v} {1 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\dff.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} {F:/work/verilog/ali alavi/2/cpu/ControlUnit.v} {1 {vlog -work work -vopt {F:\work\verilog\ali alavi\2\cpu\ControlUnit.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}}

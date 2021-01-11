@@ -1,0 +1,22 @@
+module cpu(input clk);
+  wire zero,ALUSrc,MemtoReg,RegWrite,MemRead,MemWrite,Branch;
+  wire [63:0]PC_Input,PC_Output,PC4,Instuction,readdata1, readdata2,writedata,ALUInput2,ALUResult,ReadData,Extended,BranchTarget;
+  wire [3:0]ALUControlInput;
+  output reg[1:0]ALUOp;
+  ALU cpu0(readdata1,ALUInput2,ALUControlInput,ALUResult,zero);
+  ALUControlUnit cpu1(Instuction[31:25],Instuction[14:12],ALUOp,ALUControlInput);
+  ControlUnit cpu2(ALUResult[6:0],ALUSrc,MemtoReg,RegWrite,MemRead,MemWrite,Branch,ALUOp);
+  DataMemory cpu3(MemRead,MemWrite,ALUResult,readdata2,ReadData);
+  RegFile cpu4(clk,RegWrite,Instuction[19:15], Instuction[24:20], Instuction[11:7],writedata,readdata1, readdata2);
+  Adder4 cpu5(PC_Output,PC4);
+  InstuctionMemory cpu6(PC_Output,Instuction);
+  PC cpu7(clk,2'b00,PC_Input,PC_Output);
+  SignExtend cpu8(Instuction[31:0],Extended);
+  FullAdder64 cpu9(PC_Output,Extended<<1,1'b0,BranchTarget,);
+  
+  
+  assign ALUInput2=ALUSrc?Extended:readdata2;
+  assign writedata=MemtoReg?ReadData:ALUResult;
+  assign PC_Input=(Branch & zero)?BranchTarget:PC4;
+endmodule
+  

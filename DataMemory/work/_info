@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech64_10.1c\examples
+vDataMemory
+V:66SDN23;48PG3^WP:^em2
+r1
+!s85 0
+31
+I_G9z5I`:KCM8i@cRNBzzX1
+Z0 dF:\work\verilog\ali alavi\2\DataMemory
+w1609007930
+8F:\work\verilog\ali alavi\2\DataMemory\DataMemory.v
+FF:\work\verilog\ali alavi\2\DataMemory\DataMemory.v
+L0 1
+Z1 OL;L;10.1c;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@data@memory
+!s100 U]FFe62lRjCfl;3K5:Ra52
+!s108 1609008200.794000
+!s107 F:\work\verilog\ali alavi\2\DataMemory\DataMemory.v|
+!s90 -reportprogress|300|-work|work|-vopt|F:\work\verilog\ali alavi\2\DataMemory\DataMemory.v|
+!i10b 1
+vtb
+VV@Xn<HnSRM[I5c1?BH]3a3
+r1
+31
+I]n3;m8:5M9:K=F<OkZT@72
+Z3 dF:\work\verilog\ali alavi\2\DataMemory
+w1609008199
+8F:\work\verilog\ali alavi\2\DataMemory\DMtb.v
+FF:\work\verilog\ali alavi\2\DataMemory\DMtb.v
+L0 1
+R1
+R2
+!s85 0
+!i10b 1
+!s100 BcIlNO^UiXSX]Z]JXzcW82
+!s108 1609008201.216000
+!s107 F:\work\verilog\ali alavi\2\DataMemory\DMtb.v|
+!s90 -reportprogress|300|-work|work|-vopt|F:\work\verilog\ali alavi\2\DataMemory\DMtb.v|
